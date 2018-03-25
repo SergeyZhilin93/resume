@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: orange;
+}
+.container {
+  width: 1280px;
+}
+.container--content-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo-container__logo {
+  background-color: white;
+  border-radius: 100px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header-navigation {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+}
+.header-navigation__link {
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+}
+.header-navigation__link:hover {
+  color: black;
+}
