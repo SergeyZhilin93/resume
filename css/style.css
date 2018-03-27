@@ -41,26 +41,31 @@ body {
   justify-content: center;
 }
 .skills-title {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.skills-title__image {
+  width: 50px;
+  height: 50px
 }
 .skills-title__text {
   font-size: 30px;
   font-weight: 600;
+  margin-left: 10px;
 }
 .skills-block {
   width: 50%;
-}
-.skills-block__image {
-  width: 150px;
-  height: auto;
-}
-.skills-block {
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: orange;
   padding: 10px;
   box-sizing: border-box;
+}
+.skills-block__image {
+  width: 150px;
+  height: auto;
 }
 .skills-text {
   margin-left: 15px;
@@ -75,4 +80,44 @@ body {
 }
 .skills-row--reversed {
   flex-direction: row-reverse;
+}
+.education {
+  display: flex;
+  justify-content: center;
+}
+.education-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.education-title__text {
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+.education-title__image {
+  width: 50px;
+  height: 50px;
+}
+.education-block {
+  width: 48%;
+  background-color: lightblue;
+  box-sizing: border-box;
+  padding: 10px;
+}
+.education-block--color-pink {
+  background-color: pink;
+}
+.education-block-title {
+  display: flex;
+  justify-content: center;
+}
+.education-block-title__school {
+  font-weight: 600;
+  margin-bottom: 0;
+}
+.education-content {
+  display: flex;
+  justify-content: space-between;
 }
