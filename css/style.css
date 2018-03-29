@@ -124,6 +124,7 @@ body {
 .goals {
   display: flex;
   justify-content: center;
+  margin-bottom: 35px;
 }
 .goals-title {
   display: flex;
@@ -165,5 +166,21 @@ body {
   justify-content: center;
   align-items: center;
   margin-right: 10px;
-
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  background-color: orange;
+  color: white;
+}
+.footer-navigation__link {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+.footer-navigation__link:hover {
+  color: black;
+}
+.author {
+  font-size: 14px;
 }
