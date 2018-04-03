@@ -184,3 +184,44 @@ body {
 .author {
   font-size: 14px;
 }
+.container--content-center {
+  margin: 0 auto;
+  width: 700px;
+}
+.projects {
+  margin-bottom: 50px;
+}
+.slider {
+  margin-bottom: 50px;
+}
+.slick-prev, .slick-next {
+  background-color: black;
+  border-radius: 10px;
+  border: 1px solid white;
+}
+.slick-prev:hover, .slick-next:hover {
+  background-color: black;
+}
+
+.slider-nav .slick-track img {
+  width: 134px;
+  height: 100px;
+  object-fit: cover;
+}
+.slider-nav .slick-track {
+  height: 100px;
+}
+.projects-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.projects-title__image {
+  width: 50px;
+  height: 50px;
+}
+.projects-title__text {
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 10px;
+}
