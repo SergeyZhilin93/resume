@@ -13,7 +13,8 @@
   <script src="js/common.js"></script>
   </head>
 <body>
-  <div class="header">
+  <div class="site-background"></div>
+  <header>
     <div class="container container--content-between">
       <div class="logo-container">
         <p class="logo-container__logo">Logo</p>
@@ -25,106 +26,108 @@
         <a class="header-navigation__link" href="#projects">Проекты</a>
       </div>
     </div>
-  </div>
-  <div class="skills" id="skills">
-    <div class="container">
-      <div class="skills-title">
-        <img class="skills-title__image" src="img/skill.jpg" alt="">
-        <p class="skills-title__text">Навыки</p>
+  </header>
+  <div class="wrapper">
+    <div class="skills" id="skills">
+      <div class="container">
+        <div class="skills-title">
+          <img class="skills-title__image" src="img/skill.jpg" alt="">
+          <p class="skills-title__text title-color">Навыки</p>
+        </div>
+        <div class="skills-row">
+          <div class="skills-block">
+            <img class="skills-block__image" src="img/skill.jpg" alt="">
+            <div class="skills-text">
+              <span class="skills-text__title">Html - </span>
+              <span class="skills-text__description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio cumque architecto dolorem nam error, alias fugiat, magni consequuntur expedita sapiente repudiandae quibusdam quasi consequatur quidem numquam autem vel a est!
+              </span>
+            </div>
+          </div>
+        </div>
+        <div class="skills-row skills-row--reversed">
+          <div class="skills-block skills-row--reversed">
+            <img class="skills-block__image" src="img/skill.jpg" alt="">
+            <div class="skills-text">
+              <span class="skills-text__title">Html - </span>
+              <span class="skills-text__description">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio cumque architecto dolorem nam error, alias fugiat, magni consequuntur expedita sapiente repudiandae quibusdam quasi consequatur quidem numquam autem vel a est!
+              </span>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="skills-row">
-        <div class="skills-block">
-          <img class="skills-block__image" src="img/skill.jpg" alt="">
-          <div class="skills-text">
-            <span class="skills-text__title">Html - </span>
-            <span class="skills-text__description">
+    </div>
+    <div class="education" id="education">
+      <div class="container">
+        <div class="education-title">
+          <img class="education-title__image" src="img/skill.jpg" alt="">
+          <p class="education-title__text title-color">Образование</p>
+        </div>
+        <div class="education-content">
+          <div class="education-block">
+            <div class="education-block-title">
+              <p class="education-block-title__school">Школа</p>
+            </div>
+            <p class="education-block__text">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio cumque architecto dolorem nam error, alias fugiat, magni consequuntur expedita sapiente repudiandae quibusdam quasi consequatur quidem numquam autem vel a est!
-            </span>
+            </p>
           </div>
-        </div>
-      </div>
-      <div class="skills-row skills-row--reversed">
-        <div class="skills-block skills-row--reversed">
-          <img class="skills-block__image" src="img/skill.jpg" alt="">
-          <div class="skills-text">
-            <span class="skills-text__title">Html - </span>
-            <span class="skills-text__description">
+          <div class="education-block education-block--color-pink">
+            <div class="education-block-title">
+              <p class="education-block-title__school">Институт</p>
+            </div>
+            <p class="education-block__text">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio cumque architecto dolorem nam error, alias fugiat, magni consequuntur expedita sapiente repudiandae quibusdam quasi consequatur quidem numquam autem vel a est!
-            </span>
+            </p>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <div class="education" id="education">
-    <div class="container">
-      <div class="education-title">
-        <img class="education-title__image" src="img/skill.jpg" alt="">
-        <p class="education-title__text">Образование</p>
-      </div>
-      <div class="education-content">
-        <div class="education-block">
-          <div class="education-block-title">
-            <p class="education-block-title__school">Школа</p>
+    <div class="goals" id="goals">
+      <div class="container">
+        <div class="goals-title">
+          <img class="goals-title__image" src="img/skill.jpg" alt="">
+          <p class="goals-title__text title-color">Цели</p>
+        </div>
+        <div class="goals-block">
+          <div class="goals-row">
+            <span class="goals-row__number">1</span>
+            <span class="goals-row__text">Выучить JS</span>
           </div>
-          <p class="education-block__text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio cumque architecto dolorem nam error, alias fugiat, magni consequuntur expedita sapiente repudiandae quibusdam quasi consequatur quidem numquam autem vel a est!
-          </p>
-        </div>
-        <div class="education-block education-block--color-pink">
-          <div class="education-block-title">
-            <p class="education-block-title__school">Институт</p>
+          <div class="goals-row">
+            <span class="goals-row__number">2</span>
+            <span class="goals-row__text">Выучить Ruby</span>
           </div>
-          <p class="education-block__text">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio cumque architecto dolorem nam error, alias fugiat, magni consequuntur expedita sapiente repudiandae quibusdam quasi consequatur quidem numquam autem vel a est!
-          </p>
+        </div>
+      </div>
+    </div>
+    <div class="projects" id="projects">
+      <div class="projects-title">
+        <img class="projects-title__image" src="img/skill.jpg" alt="">
+        <p class="projects-title__text title-color">Проекты</p>
+      </div>
+      <div class="container container--content-center">
+        <div class="slider">
+            <img src="img/slide1.jpg" alt="">
+            <img src="img/slide2.jpg" alt="">
+            <img src="img/slide3.jpg" alt="">
+            <img src="img/slide1.jpg" alt="">
+            <img src="img/slide2.jpg" alt="">
+            <img src="img/slide3.jpg" alt="">
+        </div>
+        <div class="slider-nav">
+            <img src="img/slide1.jpg" alt="">
+            <img src="img/slide2.jpg" alt="">
+            <img src="img/slide3.jpg" alt="">
+            <img src="img/slide1.jpg" alt="">
+            <img src="img/slide2.jpg" alt="">
+            <img src="img/slide3.jpg" alt="">
         </div>
       </div>
     </div>
   </div>
-  <div class="goals" id="goals">
-    <div class="container">
-      <div class="goals-title">
-        <img class="goals-title__image" src="img/skill.jpg" alt="">
-        <p class="goals-title__text">Цели</p>
-      </div>
-      <div class="goals-block">
-        <div class="goals-row">
-          <span class="goals-row__number">1</span>
-          <span class="goals-row__text">Выучить JS</span>
-        </div>
-        <div class="goals-row">
-          <span class="goals-row__number">2</span>
-          <span class="goals-row__text">Выучить Ruby</span>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="projects" id="projects">
-    <div class="projects-title">
-      <img class="projects-title__image" src="img/skill.jpg" alt="">
-      <p class="projects-title__text">Проекты</p>
-    </div>
-    <div class="container container--content-center">
-      <div class="slider">
-          <img src="img/slide1.jpg" alt="">
-          <img src="img/slide2.jpg" alt="">
-          <img src="img/slide3.jpg" alt="">
-          <img src="img/slide1.jpg" alt="">
-          <img src="img/slide2.jpg" alt="">
-          <img src="img/slide3.jpg" alt="">
-      </div>
-      <div class="slider-nav">
-          <img src="img/slide1.jpg" alt="">
-          <img src="img/slide2.jpg" alt="">
-          <img src="img/slide3.jpg" alt="">
-          <img src="img/slide1.jpg" alt="">
-          <img src="img/slide2.jpg" alt="">
-          <img src="img/slide3.jpg" alt="">
-      </div>
-    </div>
-  </div>
-  <div class="footer">
+  <footer>
     <div class="container container--content-between">
       <div class="footer-navigation">
         <a class="footer-navigation__link" href="#skills">Навыки</a>
@@ -134,6 +137,6 @@
       </div>
       <p class="author">Created by Solomonsdt</p>
     </div>
-  </div>
+  </footer>
 </body>
 </html>
